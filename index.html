@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Emails</title>
+</head>
+<body>
+<iframe src="app/index.html" width="100%" scrolling="no" onload="resizeIframe(this)" frameborder="0"></iframe>
+
+    <script>
+        function resizeIframe(obj) {
+            obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+        }
+    </script>
+</body>
+</html>
